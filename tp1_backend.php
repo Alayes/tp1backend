@@ -6,58 +6,66 @@
 </head>
 <body>
 
-<h1>Hola</h1>
+<h2>Hola mundo</h2>
 
-
+<h3>Ejercicio 1</h3>
 <?php
 $mensaje = "Hola Mundo";
 echo $mensaje;
 ?>
+
 <br>
 <hr>
+
+<h3>Ejercicio 2</h3>
 <?php
-$numero5 = "5";
+$numero4 = "4";
 $numero2 = "2";
 
-$totalsuma = $numero5 + $numero2;
-$totalresta = $numero5 - $numero2;
-$totaldiv = $numero5 / $numero2;
-$totalmult = $numero5 * $numero2;
-$totalresto = $numero5 % $numero2;
+$totalsuma = $numero4 + $numero2;
+echo "$totalsuma da la suma";
+$totalresta = $numero4 - $numero2;
+echo "$totalresta da la resta";
+$totaldiv = $numero4 / $numero2;
+echo "$totaldiv da la division";
+$totalmult = $numero4 * $numero2;
+echo "$totalmult da la multiplicacion";
+$totalresto = $numero4 % $numero2;
+echo "$totalresto da la division con resto";
 
-echo $totalsuma;
-echo $totalresta;
-echo $totaldiv;
-echo $totalmult;
-echo $totalresto;
+
 ?>
+
 <br>
 <hr>
+<h3>Ejercicio 4</h3>
 <?php
 $celsius = "20";
 $fahr = "32";
-$multiplicar = "9.5";
+$multiplicar = "9,5";
 $calculo = $celsius * $multiplicar + $fahr;
-echo $calculo
+echo "$calculo grados Fahrenheit"
 ?>
 <br>
 <hr>
+<h3>Ejercicio 5a</h3>
 <?php
 $baserect = "18";
 $alturarect = "12";
 $perimetrorect = $baserect + $baserect + $alturarect + $alturarect;
-echo $perimetrorect;
+echo "$perimetrorect es el perimetro del rectangulo";
 $arearect = $baserect * $alturarect;
-echo $arearect;
+echo "$arearect es el area del rectangulo";
 ?>
 <br>
 <hr>
+<h3>Ejercicio 5b</h3>
 <?php
 $radiocirc = "30";
-$numeropi = "3.14";
+$numeropi = "3,14";
 $radioalcuadrado = $radiocirc * $radiocirc;
 $areacirc = $numeropi * $radioalcuadrado;
-echo $areacirc;
+echo "$areacirc es el area del circulo";
 $perimetrocirc = $numero2 * $numeropi * $radiocirc;
-echo $perimetrocirc;
+echo "$perimetrocirc es el perimetro del circulo";
 ?>
